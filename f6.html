@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+</head>
+<body>
+
+<form action="/subscribe" method="post">
+    <h2>Subscribe to our Newsletter</h2>
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="frequency">Frequency:</label><br>
+    <select id="frequency" name="frequency">
+        <option value="daily">Daily</option>
+        <option value="weekly">Weekly</option>
+        <option value="monthly">Monthly</option>
+    </select><br><br>
+
+    <button type="submit">Subscribe</button>
+</form>
+</body>
+</html>
